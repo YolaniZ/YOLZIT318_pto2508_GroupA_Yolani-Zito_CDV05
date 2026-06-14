@@ -1,3 +1,28 @@
+Simple Developer Portfolio Website
+
+**Project Snapshot**
+
+- **Owner:** Yola Zito
+- **Repo:** StudentNo_Classcode_Group_Name-Surname_CDV05
+- **Branch:** `main`
+- **Files added:** `index.html`, `css/styles.css`, `js/script.js`, `assets/images/*`
+- **Features:** responsive layout, project showcase (2+), lightbox for images, contact links (email, GitHub, LinkedIn)
+
+**Live demo**
+
+- If deployed to GitHub Pages the URL will be: `https://<your-username>.github.io/<repo-name>/` (follow Deploy to GitHub Pages below)
+
+**How to customise quickly**
+
+- Replace placeholders in `index.html` (name, email, GitHub, LinkedIn, project descriptions and links).  
+- Replace `assets/images/project1.svg` and `project2.svg` with your screenshots (keep the same filenames) or update `img` src attributes.
+- Start a local server to preview:
+
+```bash
+# From project root
+python -m http.server 8000
+```
+
 ### CDV05 | Project Brief: Simple Developer Portfolio Website 🎨
 
 #### Objective
