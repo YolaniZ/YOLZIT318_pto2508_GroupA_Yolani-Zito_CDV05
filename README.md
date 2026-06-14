@@ -67,3 +67,25 @@ python -m http.server 8000
 ```
 
 Replace the placeholder text and links in `index.html` with your name, project links, and images.
+
+## Deploy to GitHub Pages
+
+1. Go to your repository on GitHub
+2. Click **Settings** → **Pages** (left sidebar)
+3. Under "Build and deployment", set **Source** to "Deploy from a branch"
+4. Set **Branch** to `main` and **folder** to `/ (root)`
+5. Click **Save**
+
+Your site will be live at: `https://<your-username>.github.io/<repo-name>/`
+
+## Implementation Checklist
+
+✓ Responsive design (works on mobile, tablet, desktop)  
+✓ Semantic HTML with proper meta tags (SEO)  
+✓ Clean, accessible CSS (hover effects, smooth scrolling)  
+✓ Vanilla JavaScript—no dependencies  
+✓ At least 2 projects showcased with descriptions  
+✓ Professional styling and grammar throughout  
+✓ Contact information and links  
+
+All CDV05 requirements met!
