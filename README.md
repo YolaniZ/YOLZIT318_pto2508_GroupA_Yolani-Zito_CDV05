@@ -3,7 +3,7 @@ Simple Developer Portfolio Website
 **Project Snapshot**
 
 - **Owner:** Yola Zito
-- **Repo:** StudentNo_Classcode_Group_Name-Surname_CDV05
+- **Repo:** Yolzit318_pto2508_GroupA_Yolani-Zito_CDV05
 - **Branch:** `main`
 - **Files added:** `index.html`, `css/styles.css`, `js/script.js`, `assets/images/*`
 - **Features:** responsive layout, project showcase (2+), lightbox for images, contact links (email, GitHub, LinkedIn)
@@ -33,12 +33,6 @@ Your portfolio will be evaluated based on the following criteria:
 
 1. **Overall Project Quality** (CDV05)
     - Combines design and user experience, project showcase, content quality, and technical proficiency.
-
-#### Evaluation Rubric
-
-| **Criteria** | **5 - Excellent** | **4 - Good** | **3 - Satisfactory** | **2 - Needs Improvement** | **1 - Unsatisfactory** | **0 - No Submission** |
-|--------------|-------------------|--------------|----------------------|---------------------------|------------------------|-----------------------|
-| **D3.1**: CDV05: Simple Developer Portfolio Website | **Outstanding Portfolio in every aspect.** Outstanding quality in design, user experience, project diversity, content accuracy, and technical proficiency. | **A solid Portfolio with clear strengths in most sections.** High quality across all aspects with minor areas for improvement. | **Portfolio meets basic requirements but lacks polish and refinement.** Adequate quality meeting basic requirements but lacking polish in some areas. | **Sections of the Portfolio meet basic expectations, the overall quality is subpar.** Subpar quality with notable deficiencies in multiple aspects. | **Portfolio is fundamentally flawed, with significant deficiencies across all areas.** Poor quality, failing to meet essential requirements in design, content, and technical proficiency. | **No submission** |
 
 #### Project Requirements
 
