@@ -2,9 +2,10 @@
 :root{--accent:#2563eb;--accent-dark:#1e40af;--bg:#f8fafc;--card:#fff;--border:#e2e8f0;--text:#1e293b;--text-light:#64748b}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;line-height:1.6;color:var(--text);background:var(--bg)}
-.container{max-width:900px;margin:0 auto;padding:0 1.5rem}
-.site-header{background:var(--card);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;line-height:1.6;color:var(--text);background:var(--bg);background-image:url('../assets/images/background.svg');background-size:cover;background-position:center;position:relative;}
+body::before{content:'';position:fixed;inset:0;background:rgba(248,250,252,0.84);pointer-events:none;}
+.container{max-width:900px;margin:0 auto;padding:0 1.5rem;position:relative;z-index:1}
+.site-header{background:rgba(255,255,255,0.95);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
 .site-header .container{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.5rem}
 .site-title{margin:0;font-size:1.5rem;font-weight:700;letter-spacing:-0.5px}
 .site-nav{display:flex;align-items:center}
