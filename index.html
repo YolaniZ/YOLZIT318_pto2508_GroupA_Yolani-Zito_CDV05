@@ -33,14 +33,24 @@
         <h2>Projects</h2>
         <div class="projects-grid">
           <article class="project-card">
-            <img src="assets/images/project1.svg" alt="Portfolio website preview">
+            <figure class="project-figure">
+              <button class="lightbox-trigger" data-title="Simple Portfolio Site — built with HTML & CSS">
+                <img src="assets/images/project1.svg" alt="Portfolio website preview">
+              </button>
+              <figcaption>Simple Portfolio Site — built with HTML & CSS</figcaption>
+            </figure>
             <h3>Simple Portfolio Site</h3>
             <p>A responsive portfolio showcase built with semantic HTML and modern CSS. Features clean navigation, mobile-first design, and professional styling. Demonstrates responsive grid layouts and accessibility best practices.</p>
             <p><a href="https://github.com" target="_blank" rel="noopener">View on GitHub</a></p>
           </article>
 
           <article class="project-card">
-            <img src="assets/images/project2.svg" alt="Web project preview">
+            <figure class="project-figure">
+              <button class="lightbox-trigger" data-title="Interactive Web Component — vanilla JS">
+                <img src="assets/images/project2.svg" alt="Web project preview">
+              </button>
+              <figcaption>Interactive Web Component — vanilla JS</figcaption>
+            </figure>
             <h3>Interactive Web Component</h3>
             <p>A vanilla JavaScript interactive component with focus on user experience and performance. Includes smooth animations, keyboard navigation, and works across all modern browsers.</p>
             <p><a href="https://github.com" target="_blank" rel="noopener">View on GitHub</a></p>
@@ -70,5 +80,13 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <!-- Lightbox modal -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <div class="lightbox-inner">
+        <button class="lightbox-close" aria-label="Close">✕</button>
+        <img id="lightbox-img" src="" alt=""/>
+        <p id="lightbox-caption"></p>
+      </div>
+    </div>
   </body>
 </html>
