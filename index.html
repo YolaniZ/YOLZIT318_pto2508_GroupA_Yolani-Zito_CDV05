@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple developer portfolio showcasing projects, skills, and contact information.">
+    <title>Developer Portfolio — Your Name</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="site-title">Your Name</h1>
+        <nav class="site-nav">
+          <button id="navToggle" class="nav-toggle" aria-expanded="false">Menu</button>
+          <ul id="navList" class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="about" class="about">
+        <h2>About</h2>
+        <p>I'm a junior developer who builds simple, clean web projects. I enjoy learning new technologies and solving problems with code.</p>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="assets/images/project1.svg" alt="Project 1 screenshot">
+            <h3>Project One</h3>
+            <p>Brief description of project one. Technologies: HTML, CSS, JavaScript.</p>
+            <p><a href="#" target="_blank" rel="noopener">View repository</a></p>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/project2.svg" alt="Project 2 screenshot">
+            <h3>Project Two</h3>
+            <p>Brief description of project two. Technologies: HTML, CSS.</p>
+            <p><a href="#" target="_blank" rel="noopener">View repository</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript (basic)</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© <span id="year"></span> Your Name</div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

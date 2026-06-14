@@ -50,3 +50,20 @@ Your portfolio will be evaluated based on the following criteria:
 - **Ask for feedback**: Show your site to peers or mentors and make improvements based on their suggestions.
 
 By following this brief and focusing on each criterion, you will be able to create a simple developer portfolio that effectively showcases your skills and projects. Good luck!
+
+## View the example site locally
+
+1. Open `index.html` in your browser (double-click the file).
+
+OR
+
+2. Start a simple local server from the project folder (recommended):
+
+```bash
+# Python 3
+python -m http.server 8000
+
+# then open http://localhost:8000 in your browser
+```
+
+Replace the placeholder text and links in `index.html` with your name, project links, and images.
